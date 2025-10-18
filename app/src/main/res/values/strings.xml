@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">proyecto_final</string>
+    <!--STRINGS DE P2-->
+    <string name="titulo">StudyMethod</string>
+    <string name="introP2">Esta aplicación está diseñada para mejorar tu aprendizaje de forma activa y personalizada.</string>
+    <string name="t1">Flashcards inteligentes para memorizar conceptos con autoevaluación y seguimiento de tu progreso.</string>
+    <string name="t2">Temporizador pomodoro para organizar tus sesiones de estudio con descansos y juegos que te motivan.</string>
+    <string name="t3">Chatbot tutor para resolver dudas, explicar temas y ayudarte a entender tus materiales.</string>
+    <string name="comezar">COMENZAR</string>
 </resources>
