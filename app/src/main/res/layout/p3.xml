@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/p3"
+    android:background="@drawable/fondo_img">
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aoboshi_one"
+        android:text="@string/bienvenida"
+        android:textSize="30dp"
+        android:textColor="@color/verde_opaco"
+        android:textAlignment="center"
+        android:padding="20dp"
+        android:id="@+id/textViewBienvenida" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="634dp"
+        android:layout_margin="10dp"
+        android:background="@android:color/transparent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="398dp"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/fondocuadradoverde"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="17dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/aoboshi_one"
+                    android:padding="8dp"
+                    android:text="@string/login"
+                    android:textAlignment="center"
+                    android:textColor="@color/verde_muyClaro"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="17dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/aoboshi_one"
+                    android:padding="8dp"
+                    android:text="@string/nombreL"
+                    android:textColor="@color/verde_muyClaro"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/fondoverdeclaro" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="17dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/aoboshi_one"
+                    android:padding="8dp"
+                    android:text="@string/emailL"
+                    android:textColor="@color/verde_muyClaro"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/fondoverdeclaro" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="17dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/aoboshi_one"
+                    android:padding="8dp"
+                    android:text="@string/contraL"
+                    android:textColor="@color/verde_muyClaro"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/fondoverdeclaro" />
+
+
+            </TableRow>
+
+        </TableLayout>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_gravity="top|right"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="5dp"
+            android:contentDescription="Icono sobre tabla"
+            android:elevation="4dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/n3_" />
+
+        <Button
+            android:layout_width="359dp"
+            android:layout_height="72dp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="50dp"
+            android:contentDescription="Icono sobre tabla"
+            android:elevation="0dp"
+            android:scaleType="fitCenter"
+            android:text="@string/continuarBTN"
+            android:backgroundTint="@color/verde_aqua_opaco"
+            android:fontFamily="@font/aoboshi_one"
+            android:textStyle="bold"
+            android:textSize="25dp"/>
+
+
+            />
+    </FrameLayout>
+
+
+
+
+</LinearLayout>

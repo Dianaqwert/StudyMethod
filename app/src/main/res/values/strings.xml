@@ -7,4 +7,12 @@
     <string name="t2">Temporizador pomodoro para organizar tus sesiones de estudio con descansos y juegos que te motivan.</string>
     <string name="t3">Chatbot tutor para resolver dudas, explicar temas y ayudarte a entender tus materiales.</string>
     <string name="comezar">COMENZAR</string>
+
+    <!--STRINGS DE P3-->
+    <string name="bienvenida">BIENVENID@</string>
+    <string name="login">Log in</string>
+    <string name="nombreL">Nombre:</string>
+    <string name="emailL">Email:</string>
+    <string name="contraL">Contraseña:</string>
+    <string name="continuarBTN">CONTINUAR</string>
 </resources>
