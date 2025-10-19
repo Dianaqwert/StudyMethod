@@ -44,6 +44,13 @@
     <string name="mitad">50%</string>
     <string name="mal">5%</string>
 
+    <!--STRINGS PARA ESTADISTICAS-->
+    <string name="estadisticas">Estadísticas</string>
+    <string name="cantidad">cantidad</string>
+    <string name="repasar">REPASAR</string>
+
+
+
 
 
 

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/pantallaEstd"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/estadisticas"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:layout_marginTop="40dp"
+        android:textSize="30dp"
+        android:fontFamily="@font/aoboshi_one"
+        android:textColor="@color/azulFuerte"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="#.Tema"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:padding="10dp"
+
+        android:fontFamily="@font/aoboshi_one"
+        android:textColor="@color/azulFuerte"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@android:color/transparent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="17dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="60dp"
+                    android:background="@drawable/cuadroverdevivo"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/aoboshi_one"
+                        android:padding="8dp"
+                        android:text="@string/bien"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/aoboshi_one"
+                        android:text="@string/cantidad"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="17dp"
+                android:layout_marginTop="50dp">
+
+                <LinearLayout
+                    android:layout_width="272dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/cuadradonaranja"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/aoboshi_one"
+                        android:padding="8dp"
+                        android:text="@string/mitad"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/aoboshi_one"
+                        android:text="@string/cantidad"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="17dp"
+                android:layout_marginTop="50dp">
+
+                <LinearLayout
+                    android:layout_width="272dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/cuadronaranjaclaro"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/aoboshi_one"
+                        android:padding="8dp"
+                        android:text="@string/mal"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/aoboshi_one"
+                        android:text="@string/cantidad"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/black"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+
+            </TableRow>
+
+
+        </TableLayout>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_gravity="top|right"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="0dp"
+            android:contentDescription="Icono sobre tabla"
+            android:elevation="4dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/imagen10" />
+
+        <ImageView
+            android:layout_width="158dp"
+            android:layout_height="213dp"
+            android:layout_gravity="bottom|left"
+            android:layout_marginTop="56dp"
+            android:layout_marginRight="10dp"
+            android:contentDescription="Icono sobre tabla"
+            android:elevation="4dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/imagen8" />
+    </FrameLayout>
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/repasar"
+        android:padding="15dp"
+        android:layout_margin="20dp"
+        android:fontFamily="@font/aoboshi_one"
+        android:textSize="25dp"
+        android:backgroundTint="@color/azulFuerte"/>
+
+
+
+
+</LinearLayout>
