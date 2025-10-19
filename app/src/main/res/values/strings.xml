@@ -23,4 +23,12 @@
     <string name="pomodoro">Pomodoro</string>
     <string name="chat">ChatTutor</string>
     <string name="select">Selecciona uno de los métodos de estudio:</string>
+
+    <!--STRINGS DE P5-->
+    <string name="saludo">Hola,</string>
+    <string name="conjuntosFlashC">FLASHCARDS</string>
+    <string name="error">ERRORES</string>
+    <string name="btnAddFC">Agregar nuevo tema</string>
+    <string name="errores_fc">Numéro de flashcards sin comprender:</string>
+    <string name="btnverMas">Ver estádisticas</string>
 </resources>

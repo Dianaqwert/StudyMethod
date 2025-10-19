@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/azulMuyClaro"
+    android:id="@+id/pmenufc"
+    android:layout_height="match_parent">
+
+    <!--TextView
+        android:background="@drawable/cuadroazulmuyclaro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/saludo"
+        android:fontFamily="@font/aoboshi_one"
+        android:textColor="@color/azul"
+        android:textSize="30dp"
+        /-->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/cuadroazulmuyclaro"
+        android:rowCount="1"
+        android:columnCount="2"
+        android:useDefaultMargins="true">
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_row="0"
+            android:layout_column="0">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aoboshi_one"
+                android:padding="8dp"
+                android:text="@string/saludo"
+                android:textColor="@color/azul"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aoboshi_one"
+                android:paddingLeft="8dp" android:paddingTop="0dp"
+                android:text="@string/nombrep4"
+                android:textColor="@color/azul"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="123dp"
+            android:layout_height="106dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:contentDescription="Flor decorativa"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/n5" />
+    </GridLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/conjuntosFlashC"
+        android:fontFamily="@font/aoboshi_one"
+        android:textSize="30dp"
+        android:padding="10dp"
+        android:textColor="@color/azulFuerte"/>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollViewCuadros">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/contenedorCuadros">
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="146dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/n6"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="61dp"
+                    android:background="@drawable/n7" />
+
+
+                <Button
+                    android:fontFamily="@font/aoboshi_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:backgroundTint="@color/azulMuyClaro"
+                    android:textColor="@color/azul"
+                    android:textAlignment="textStart"
+                    android:text="#.Tema" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="146dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/n6"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="61dp"
+                    android:background="@drawable/n7" />
+
+                <Button
+                    android:fontFamily="@font/aoboshi_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:backgroundTint="@color/azulMuyClaro"
+                    android:textColor="@color/azul"
+                    android:textAlignment="textStart"
+                    android:text="#.Tema" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="146dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/n6"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="61dp"
+                    android:background="@drawable/n7"
+                    />
+
+
+
+                <Button
+                    android:fontFamily="@font/aoboshi_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:backgroundTint="@color/azulMuyClaro"
+                    android:textColor="@color/azul"
+                    android:textAlignment="textStart"
+                    android:text="#.Tema" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnAddFC"
+        android:fontFamily="@font/aoboshi_one"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="@color/azulFuerte"
+        android:textColor="@color/azulMuyClaro"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/error"
+        android:fontFamily="@font/aoboshi_one"
+        android:textSize="30dp"
+        android:padding="10dp"
+        android:textColor="@color/azulmedio"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:id="@+id/contenedorDeCuadros">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/cuadroazulfuerte"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                >
+
+                <TextView
+                    android:layout_width="370dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/aoboshi_one"
+                    android:text="#.Tema"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/azulMuyClaro"
+                    android:textSize="24sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/errores_fc"
+                    android:fontFamily="@font/aoboshi_one"
+                    android:textColor="@color/azulMuyClaro"
+
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="58dp"
+                    android:backgroundTint="@color/azulMuyClaro"
+                    android:fontFamily="@font/aoboshi_one"
+                    android:text="@string/btnverMas"
+                    android:textColor="@color/azulmedio"
+                    android:textSize="15dp"
+                    android:textAlignment="center"
+                    android:textStyle="bold"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/cuadroazulfuerte"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                >
+
+                <TextView
+                    android:layout_width="370dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/aoboshi_one"
+                    android:text="#.Tema"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/azulMuyClaro"
+                    android:textSize="24sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/errores_fc"
+                    android:fontFamily="@font/aoboshi_one"
+                    android:textColor="@color/azulMuyClaro"
+
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="58dp"
+                    android:backgroundTint="@color/azulMuyClaro"
+                    android:fontFamily="@font/aoboshi_one"
+                    android:text="@string/btnverMas"
+                    android:textColor="@color/azulmedio"
+                    android:textSize="15dp"
+                    android:textAlignment="center"
+                    android:textStyle="bold"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>
