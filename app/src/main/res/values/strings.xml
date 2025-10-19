@@ -49,6 +49,10 @@
     <string name="cantidad">cantidad</string>
     <string name="repasar">REPASAR</string>
 
+    <!--STRINGS PARA CHAT TUTOR-->
+    <string name="chTutor">Bienvedi@ Nombre</string>
+
+
 
 
 

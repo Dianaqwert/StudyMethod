@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chat"
+        android:fontFamily="@font/aoboshi_one"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/verde_aqua_opaco"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chTutor"
+        android:fontFamily="@font/aoboshi_one"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:textColor="@color/verde_aqua_opaco"/>
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="582dp"
+        android:layout_margin="10dp"
+        android:paddingTop="500dp"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="17dp">
+
+            <EditText
+                android:layout_width="245dp"
+                android:layout_height="80dp"
+                android:background="@drawable/cuadroblancocontornoverde"
+                android:fontFamily="@font/aoboshi_one"
+                android:text="@string/flashcards"
+                android:padding="5dp"
+                android:textSize="18dp" />
+
+            <ImageButton
+                android:layout_width="26dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/send"
+                android:padding="10dp" />
+
+        </TableRow>
+    </TableLayout>
+
+
+
+</LinearLayout>
