@@ -13,4 +13,8 @@
     <color name="azul">#40a2e3</color>
     <color name="azulFuerte">#1025a1</color>
     <color name="azulmedio">#1679ab</color>
+    <color name="verde">#41a67e</color>
+    <color name="naranja">#eab872</color>
+    <color name="carne">#fff1c8</color>
+
 </resources>

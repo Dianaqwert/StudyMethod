@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:id="@+id/juegoFC">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/numFC"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"
+        android:fontFamily="@font/aoboshi_one"
+        android:textColor="@color/azulFuerte"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tema"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:fontFamily="@font/aoboshi_one"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:textColor="@color/azulFuerte"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="245dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/cuadroblancoconcontornoazul"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aoboshi_one"
+            android:text="@string/numCarta"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="193dp"
+            android:fontFamily="@font/aoboshi_one"
+            android:text="@string/concepto"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:columnCount="3"
+        android:rowCount="1"
+        android:useDefaultMargins="true">
+
+        <Button
+            android:layout_marginTop="30dp"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:fontFamily="@font/aoboshi_one"
+            android:textColor="@color/black"
+
+            android:layout_column="0"
+            android:backgroundTint="@color/verde"
+            android:text="@string/bien" />
+
+        <Button
+            android:layout_marginTop="30dp"
+            android:layout_width="120dp"
+            android:layout_row="0"
+            android:layout_height="50dp"
+            android:layout_column="1"
+            android:fontFamily="@font/aoboshi_one"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/naranja"
+            android:padding="8dp"
+            android:text="@string/mitad" />
+
+        <Button
+            android:layout_marginTop="30dp"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:text="@string/mal"
+            android:layout_column="2"
+            android:fontFamily="@font/aoboshi_one"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/carne"
+            android:padding="8dp" />
+
+    </GridLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnSig"
+        android:textSize="25dp"
+        android:layout_margin="30dp"
+        android:fontFamily="@font/aoboshi_one"
+        android:backgroundTint="@color/azulFuerte"/>
+
+
+</LinearLayout>

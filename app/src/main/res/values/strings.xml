@@ -28,7 +28,23 @@
     <string name="saludo">Hola,</string>
     <string name="conjuntosFlashC">FLASHCARDS</string>
     <string name="error">ERRORES</string>
+
+    <!--STRING DE pantallamenuflashcards-->
     <string name="btnAddFC">Agregar nuevo tema</string>
     <string name="errores_fc">Numéro de flashcards sin comprender:</string>
     <string name="btnverMas">Ver estádisticas</string>
+
+    <!--STRINGS PANTALLA JUEGO FLASHCARDS-->
+    <string name="numFC">#flashcardsTotales</string>
+    <string name="concepto">Concepto/¿pegunta?</string>
+    <string name="tema">Tema1</string>
+    <string name="numCarta">#carta</string>
+    <string name="btnSig">SIGUIENTE</string>
+    <string name="bien">100%</string>
+    <string name="mitad">50%</string>
+    <string name="mal">5%</string>
+
+
+
+
 </resources>
