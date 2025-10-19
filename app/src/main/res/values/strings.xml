@@ -15,4 +15,12 @@
     <string name="emailL">Email:</string>
     <string name="contraL">Contraseña:</string>
     <string name="continuarBTN">CONTINUAR</string>
+
+    <!--STRINGS DE P4-->
+    <string name="nombrep4">Nombre</string>
+    <string name="comienzaP4">COMIENZA A ESTUDIAR</string>
+    <string name="flashcards">Flashcards</string>
+    <string name="pomodoro">Pomodoro</string>
+    <string name="chat">ChatTutor</string>
+    <string name="select">Selecciona uno de los métodos de estudio:</string>
 </resources>
