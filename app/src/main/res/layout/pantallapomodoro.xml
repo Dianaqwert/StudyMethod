@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFBEF"
+    tools:context=".MainActivity">
+
+    <!-- Encabezado Pomodoro -->
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@drawable/cuadroamarillo"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/textPomodoro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pomodoro"
+            android:textStyle="bold"
+            android:textColor="#6E5500"
+            android:textSize="26sp" />
+
+    </LinearLayout>
+
+    <!-- Subtítulo "Enfoque" -->
+    <TextView
+        android:id="@+id/textModo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enfoque ▼"
+        android:textColor="#4E3B00"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/header"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp" />
+
+    <!-- Círculo amarillo del temporizador -->
+    <FrameLayout
+        android:id="@+id/frameTimer"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:background="@drawable/circuloamarillo"
+        app:layout_constraintTop_toBottomOf="@id/textModo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="12dp">
+
+        <!-- Texto del temporizador -->
+        <TextView
+            android:id="@+id/textTimer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="25:00"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:textColor="#2E2E2E"
+            android:gravity="center" />
+
+        <!-- Imagen nutria estudiando -->
+        <ImageView
+            android:id="@+id/imgNutria1"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/nutria1"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="-20dp"
+            android:contentDescription="Nutria estudiando" />
+    </FrameLayout>
+
+    <!-- Botón Comenzar -->
+    <Button
+        android:id="@+id/btnComenzar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COMENZAR"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:background="@drawable/btncafe"
+        android:paddingHorizontal="40dp"
+        android:paddingVertical="12dp"
+        app:layout_constraintTop_toBottomOf="@id/frameTimer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp" />
+
+    <!-- Indicador de ciclos (1, 2, 3, 4) -->
+    <LinearLayout
+        android:id="@+id/indicadorCiclos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toBottomOf="@id/btnComenzar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/circulocompletado" />
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/circulonocompletado"
+            android:layout_marginStart="8dp" />
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/circulonocompletado"
+            android:layout_marginStart="8dp" />
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/circulonocompletado"
+            android:layout_marginStart="8dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
