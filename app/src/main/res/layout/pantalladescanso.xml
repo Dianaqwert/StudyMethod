@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFBEF">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="16dp">
+
+        <!-- Título -->
+        <TextView
+            android:id="@+id/textDescansoTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¡TÓMATE UN DESCANSO!"
+            android:textStyle="bold"
+            android:textSize="26sp"
+            android:textColor="#5A3825"
+            android:gravity="center"
+            android:layout_marginTop="20dp"/>
+
+        <!-- Círculo del temporizador -->
+        <FrameLayout
+            android:id="@+id/frameDescanso"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/circuloamarillo"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textTimerDescanso"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="10:00"
+                android:textStyle="bold"
+                android:textSize="36sp"
+                android:textColor="#2E2E2E"
+                android:gravity="center" />
+
+            <!-- Imagen nutria jugando -->
+            <ImageView
+                android:id="@+id/imgNutria2"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/nutria2"
+                android:layout_gravity="center|bottom"
+                android:layout_marginBottom="-10dp"
+                android:contentDescription="Nutria jugando" />
+        </FrameLayout>
+
+        <!-- Texto motivacional -->
+        <TextView
+            android:id="@+id/textMotivo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¡Recolecta la mayor cantidad de manzanas y diviértete!"
+            android:textColor="#4E2C18"
+            android:textSize="15sp"
+            android:background="@drawable/cuadroamarillo"
+            android:paddingHorizontal="14dp"
+            android:paddingVertical="8dp"
+            android:layout_marginTop="18dp"
+            android:gravity="center"/>
+
+        <!-- Imagen del juego Snake -->
+        <ImageView
+            android:id="@+id/imgSnake"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/snake"
+            android:layout_marginTop="24dp"
+            android:contentDescription="Juego Snake"
+            android:background="@drawable/sombra" />
+
+    </LinearLayout>
+</ScrollView>
