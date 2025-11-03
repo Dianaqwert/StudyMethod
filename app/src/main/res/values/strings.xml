@@ -52,10 +52,18 @@
     <!--STRINGS PARA CHAT TUTOR-->
     <string name="chTutor">Bienvedi@ Nombre</string>
 
-
-
-
-
+    <!--STRINGS FC - AGREGAR CARTAS Y CONJUNTOS-->
+    <string name="addCarta">¿De qué tema sera tu estudio?</string>
+    <string name="add">+</string>
+    <string name="quiatar">-</string>
+    <string name="addT">Agregar</string>
+    <string name="quitarT">Eliminar</string>
+    <string name="descrip">Descripción:</string>
+    <string name="concep">Añadir cartas</string>
+    <string name="nv">Nuevo tema</string>
+    <string name="cant">Cantidad de cartas</string>
+    <string name="cant2">Cantidad:</string>
+    <string name="terminos">Introducir nuevos términos:</string>
 
 
 </resources>

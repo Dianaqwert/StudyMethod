@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             android:orientation="vertical"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent">
+    android:orientation="vertical"
+    android:id="@+id/p1xml"
+    android:layout_width="match_parent"
+    android:background="@color/verde_aqua"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="372dp"
+        android:layout_margin="20dp"
+        android:padding="40dp"
+        android:background="@drawable/logo"
+        android:minWidth="20dp" />
+
+    <ImageButton
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="78dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/img2" />
+
 
 </LinearLayout>

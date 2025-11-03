@@ -151,13 +151,14 @@
             android:elevation="0dp"
             android:scaleType="fitCenter"
             android:text="@string/continuarBTN"
+            android:id="@+id/btnContinuar"
             android:backgroundTint="@color/verde_aqua_opaco"
             android:fontFamily="@font/aoboshi_one"
             android:textStyle="bold"
             android:textSize="25dp"/>
 
 
-            />
+
     </FrameLayout>
 
 

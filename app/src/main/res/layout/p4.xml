@@ -49,13 +49,13 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="70dp"
+        android:fontFamily="@font/aoboshi_one"
+        android:padding="20dp"
         android:text="@string/select"
         android:textAlignment="center"
-        android:textSize="25dp"
-        android:padding="20dp"
-        android:fontFamily="@font/aoboshi_one"
-        android:textColor="@color/verde_opaco"/>
+        android:textColor="@color/verde_opaco"
+        android:textSize="15dp" />
 
     <TableLayout
         android:layout_width="match_parent"
@@ -68,6 +68,7 @@
             android:layout_width="match_parent"
             android:layout_height="17dp">
             <Button
+                android:id="@+id/btnFlashCards"
                 android:layout_width="50dp"
                 android:layout_height="228dp"
                 android:backgroundTint="@color/verde_opaco"
@@ -77,6 +78,7 @@
                 android:textSize="25dp" />
 
             <Button
+                android:id="@+id/btnPomodoro"
                 android:layout_width="50dp"
                 android:layout_height="match_parent"
                 android:backgroundTint="@color/verde_aqua_opaco"
@@ -94,6 +96,7 @@
             android:layout_height="17dp">
 
             <Button
+                android:id="@+id/btnCT"
                 android:layout_width="50dp"
                 android:layout_height="240dp"
                 android:backgroundTint="@color/verde_muyClaro"
