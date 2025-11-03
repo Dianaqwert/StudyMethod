@@ -3,6 +3,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:background="@color/white"
+    android:id="@+id/chatTutor"
     android:layout_height="match_parent">
 
     <TextView
@@ -40,7 +41,6 @@
                 android:layout_height="80dp"
                 android:background="@drawable/cuadroblancocontornoverde"
                 android:fontFamily="@font/aoboshi_one"
-                android:text="@string/flashcards"
                 android:padding="5dp"
                 android:textSize="18dp" />
 

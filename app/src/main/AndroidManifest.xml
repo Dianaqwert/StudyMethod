@@ -12,6 +12,36 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Proyecto_final">
         <activity
+            android:name=".Act11NuevasCartas"
+            android:exported="false" />
+        <activity
+            android:name=".Act10addTema"
+            android:exported="false" />
+        <activity
+            android:name=".Act9JugarFC"
+            android:exported="false" />
+        <activity
+            android:name=".Act8Estadisticas"
+            android:exported="false" />
+        <activity
+            android:name=".Act7ChatTutor"
+            android:exported="false" />
+        <activity
+            android:name=".Act6MenuFC"
+            android:exported="false" />
+        <activity
+            android:name=".Act5Pomodoro"
+            android:exported="false" />
+        <activity
+            android:name=".Activity4"
+            android:exported="false" />
+        <activity
+            android:name=".Activity2"
+            android:exported="false" />
+        <activity
+            android:name=".Activity3"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -20,6 +50,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
