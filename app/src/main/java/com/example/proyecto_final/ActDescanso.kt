@@ -1,47 +1,37 @@
 package com.example.proyecto_final
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.proyecto_final.R
-import android.widget.Button
 import android.widget.TextView
 import android.os.CountDownTimer
-import android.content.Intent
 
-class Act5Pomodoro : AppCompatActivity() {
+class ActDescanso : AppCompatActivity() {
 
     private lateinit var textTimer: TextView
-    private lateinit var btnComenzar: Button
 
     private var timer: CountDownTimer? = null
-    private var tiempo: Long = 1 * 60 * 1000 // 25 minutos en milisegundos
-    private var activo = false // indica si el cronómetro está corriendo
+    private var tiempo: Long = 10 * 60 * 1000 // 10 minutos
+    private var activo = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.pantallapomodoro)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.pomodoro)) { v, insets ->
+        setContentView(R.layout.pantalladescanso)
+
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.pantallaDescanso)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
 
-        textTimer = findViewById(R.id.textTimer)
-        btnComenzar = findViewById(R.id.btnComenzar)
+        textTimer = findViewById(R.id.textTimerDescanso)
 
-        actualizarTimer() //muestra nuevamente 25:00
-
-        btnComenzar.setOnClickListener {
-            if (!activo) {
-                iniciarTimer()
-            } else {
-                reiniciarTimer()
-            }
-        }
+        actualizarTimer()  // muestra 10:00
+        iniciarTimer()     // 🔥 IMPORTANTE: iniciar el descanso
     }
 
     private fun iniciarTimer() {
@@ -54,24 +44,21 @@ class Act5Pomodoro : AppCompatActivity() {
             override fun onFinish() {
                 activo = false
                 textTimer.text = "00:00"
-                btnComenzar.text = "REINICIAR"
-                val intent = Intent(this@Act5Pomodoro, ActDescanso::class.java)
-                startActivity(intent)
 
-                // Opcional: cerrar esta Activity para que no se pueda volver con "Back"
+                // 👉 Regresar al Pomodoro
+                val intent = Intent(this@ActDescanso, Act5Pomodoro::class.java)
+                startActivity(intent)
                 finish()
             }
         }.start()
 
         activo = true
-        btnComenzar.text = "DETENER"
     }
 
     private fun reiniciarTimer() {
         timer?.cancel()
-        tiempo = 25 * 60 * 1000
+        tiempo = 10 * 60 * 1000
         actualizarTimer()
-        btnComenzar.text = "COMENZAR"
         activo = false
     }
 

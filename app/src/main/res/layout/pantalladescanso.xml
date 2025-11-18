@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/pantallaDescanso"
     android:background="#FFFBEF">
 
     <LinearLayout
@@ -59,7 +60,7 @@
             android:id="@+id/textMotivo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="¡Recolecta la mayor cantidad de manzanas y diviértete!"
+            android:text="¡Recolecta la mayor cantidad de puntos y diviértete!"
             android:textColor="#4E2C18"
             android:textSize="15sp"
             android:background="@drawable/cuadroamarillo"
@@ -68,15 +69,14 @@
             android:layout_marginTop="18dp"
             android:gravity="center"/>
 
-        <!-- Imagen del juego Snake -->
-        <ImageView
-            android:id="@+id/imgSnake"
+        <!-- juego Snake -->
+        <com.example.proyecto_final.SnakeGameView
+            android:id="@+id/snakeGame"
             android:layout_width="300dp"
             android:layout_height="300dp"
-            android:src="@drawable/snake"
             android:layout_marginTop="24dp"
-            android:contentDescription="Juego Snake"
             android:background="@drawable/sombra" />
+
 
     </LinearLayout>
 </ScrollView>
