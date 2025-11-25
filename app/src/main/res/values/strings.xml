@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">proyecto_final</string>
+    <!--STRINGS DE P2-->
+    <string name="titulo">StudyMethod</string>
+    <string name="introP2">Esta aplicación está diseñada para mejorar tu aprendizaje de forma activa y personalizada.</string>
+    <string name="t1">Flashcards inteligentes para memorizar conceptos con autoevaluación y seguimiento de tu progreso.</string>
+    <string name="t2">Temporizador pomodoro para organizar tus sesiones de estudio con descansos y juegos que te motivan.</string>
+    <string name="t3">Chatbot tutor para resolver dudas, explicar temas y ayudarte a entender tus materiales.</string>
+    <string name="comezar">COMENZAR</string>
+
+    <!--STRINGS DE P3-->
+    <string name="bienvenida">BIENVENID@</string>
+    <string name="entrar">Sign in</string>
+    <string name="login">Log in</string>
+    <string name="nombreL">Nombre:</string>
+    <string name="emailL">Email:</string>
+    <string name="contraL">Contraseña:</string>
+    <string name="continuarBTN">CONTINUAR</string>
+
+    <!--STRINGS DE P4-->
+    <string name="nombrep4">Nombre</string>
+    <string name="comienzaP4">COMIENZA A ESTUDIAR</string>
+    <string name="flashcards">Flashcards</string>
+    <string name="pomodoro">Pomodoro</string>
+    <string name="chat">ChatTutor</string>
+    <string name="select">Selecciona uno de los métodos de estudio:</string>
+
+    <!--STRINGS DE P5-->
+    <string name="saludo">Hola,</string>
+    <string name="conjuntosFlashC">FLASHCARDS</string>
+    <string name="error">ERRORES</string>
+
+    <!--STRING DE pantallamenuflashcards-->
+    <string name="btnAddFC">Agregar nuevo tema</string>
+    <string name="errores_fc">Numéro de flashcards sin comprender:</string>
+    <string name="btnverMas">Ver estádisticas</string>
+
+    <!--STRINGS PANTALLA JUEGO FLASHCARDS-->
+    <string name="numFC">#flashcardsTotales</string>
+    <string name="concepto">Concepto/¿pegunta?</string>
+    <string name="tema">Tema1</string>
+    <string name="numCarta">#carta</string>
+    <string name="btnSig">TERMINAR ESTUDIO</string>
+    <string name="bien">100%</string>
+    <string name="mitad">50%</string>
+    <string name="mal">5%</string>
+
+    <!--STRINGS PARA ESTADISTICAS-->
+    <string name="estadisticas">Estadísticas</string>
+    <string name="cantidad">cantidad</string>
+    <string name="repasar">REPASAR</string>
+
+    <!--STRINGS PARA CHAT TUTOR-->
+    <string name="chTutor">Bienvedi@ Nombre</string>
+
+    <!--STRINGS FC - AGREGAR CARTAS Y CONJUNTOS-->
+    <string name="addCarta">¿De qué tema sera tu estudio?</string>
+    <string name="add">+</string>
+    <string name="quiatar">-</string>
+    <string name="addT">Agregar</string>
+    <string name="quitarT">Eliminar</string>
+    <string name="descrip">Descripción:</string>
+    <string name="concep">Añadir cartas</string>
+    <string name="nv">Nuevo tema</string>
+    <string name="cant">Cantidad de cartas</string>
+    <string name="cant2">Cantidad:</string>
+    <string name="terminos">Introducir nuevos términos:</string>
+
+
+</resources>

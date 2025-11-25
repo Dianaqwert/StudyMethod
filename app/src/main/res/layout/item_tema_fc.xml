@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="146dp"
+    android:layout_margin="5dp"
+    android:background="@drawable/n6"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="61dp"
+        android:background="@drawable/n7" />
+
+    <Button
+        android:id="@+id/btnJugarFC_Item"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/azulMuyClaro"
+        android:textColor="@color/azul"
+        android:textAlignment="textStart"
+        android:fontFamily="@font/aoboshi_one"
+        android:text="Tema" />
+</LinearLayout>

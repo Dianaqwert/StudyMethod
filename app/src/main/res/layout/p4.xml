@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/p4"
+    android:background="@color/verde_muyMuyClaro"
+    >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:layout_margin="10dp" android:stretchColumns="*">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="17dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:contentDescription="Flor decorativa"
+                android:padding="8dp"
+                android:scaleType="fitEnd"
+                android:src="@drawable/imageuser" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/aoboshi_one"
+                android:paddingTop="15dp"
+                android:text="@string/nombrep4"
+                android:textColor="@color/verde_opaco"
+                android:textSize="30dp"
+                android:id="@+id/txtNombreUsuario"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+    </TableLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/comienzaP4"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:fontFamily="@font/aoboshi_one"
+        android:textColor="@color/verde_opaco"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:fontFamily="@font/aoboshi_one"
+        android:padding="20dp"
+        android:text="@string/select"
+        android:textAlignment="center"
+        android:textColor="@color/verde_opaco"
+        android:textSize="15dp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="529dp"
+        android:layout_margin="10dp"
+        android:paddingTop="30dp"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="17dp">
+            <Button
+                android:id="@+id/btnFlashCards"
+                android:layout_width="50dp"
+                android:layout_height="228dp"
+                android:backgroundTint="@color/verde_opaco"
+                android:fontFamily="@font/aoboshi_one"
+                android:padding="10dp"
+                android:text="@string/flashcards"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnPomodoro"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/verde_aqua_opaco"
+                android:fontFamily="@font/aoboshi_one"
+                android:padding="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="@string/pomodoro"
+                android:textColor="@color/verde_muyClaro"
+                android:textSize="25dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="17dp">
+
+            <Button
+                android:id="@+id/btnCT"
+                android:layout_width="50dp"
+                android:layout_height="240dp"
+                android:backgroundTint="@color/verde_muyClaro"
+                android:fontFamily="@font/aoboshi_one"
+                android:padding="10dp"
+                android:text="@string/chat"
+                android:textColor="@color/verde_opaco"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:padding="8dp"
+                android:src="@drawable/n4_" />
+
+        </TableRow>
+
+    </TableLayout>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/chatTutor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#F5F5F5"
+    tools:context=".Act7ChatTutor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_margin="2dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chat"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textColor="@color/verde_aqua_opaco"
+            android:fontFamily="@font/aoboshi_one"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/txtNombreUser"
+            android:layout_height="wrap_content"
+            android:text="@string/chTutor"
+            android:textAlignment="center"
+            android:textStyle="normal"
+            android:textSize="18dp"
+            android:textColor="@color/verde_opaco"
+            android:fontFamily="@font/aoboshi_one"
+            />
+
+    </LinearLayout>
+
+
+
+
+    <ScrollView
+        android:id="@+id/scrollChat"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+
+        <LinearLayout
+            android:id="@+id/chatAreaContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <EditText
+            android:id="@+id/editTextMessage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/aoboshi_one"
+            android:hint="Escribe tu mensaje..."
+            android:background="@drawable/cuadroblancocontornoverde"
+            android:padding="10dp"
+            android:textSize="16sp" />
+
+        <ImageButton
+            android:id="@+id/imageButtonSend"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/fondocuadradoverdeopaco"
+            android:src="@android:drawable/ic_menu_send"
+            android:contentDescription="Enviar" />
+    </LinearLayout>
+</LinearLayout>
