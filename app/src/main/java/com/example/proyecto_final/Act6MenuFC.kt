@@ -99,7 +99,7 @@ class Act6MenuFC : AppCompatActivity() {
             startActivity(intent)
         }
         //clic largo : elimina el tema
-        btnJugar.setOnClickListener {
+        btnJugar.setOnLongClickListener {
             mostrarMsjEliminar(tema)
             true //se consume el evento y no hace el clic normal despues
         }

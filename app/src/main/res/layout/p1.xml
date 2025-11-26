@@ -1,25 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/p1xml"
     android:layout_width="match_parent"
-    android:background="@color/verde_aqua"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/verde_muyClaro">
 
-    <ImageView
+    <FrameLayout
+        android:id="@+id/contenedorAnimacion"
         android:layout_width="match_parent"
-        android:layout_height="372dp"
-        android:layout_margin="20dp"
-        android:padding="40dp"
-        android:background="@drawable/logo"
-        android:minWidth="20dp" />
+        android:layout_height="match_parent" />
 
-    <ImageButton
-        android:id="@+id/btnLogin"
-        android:layout_width="wrap_content"
-        android:layout_height="78dp"
-        android:layout_margin="20dp"
-        android:background="@drawable/img2" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
 
+        <TextView
+            android:id="@+id/txtTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:fontFamily="@font/aoboshi_one"
+            android:padding="10dp"
+            android:text="Tu aliado smart para estudiar"
+            android:textAlignment="center"
+            android:textColor="@color/verde_aqua_opaco"
+            android:textSize="30dp" />
 
-</LinearLayout>
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="303dp"
+            android:layout_height="300dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/logo"
+            android:minWidth="20dp"
+            android:padding="40dp" />
+
+        <ImageButton
+            android:id="@+id/btnLogin"
+            android:layout_width="300dp"
+            android:layout_height="61dp"
+            android:layout_margin="20dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/img2"
+            android:contentDescription="Login" />
+
+    </LinearLayout>
+
+</FrameLayout>
